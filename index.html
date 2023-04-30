@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet/less" type="text/css" href="Index.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
+  </head>
+  <body>
+    <div class="container">
+      <button type="submit" onclick="openPopup()" class="btn">Click</button>
+    </div>
+<div class="popup" id="popup">
+      <div id="model">
+      <div id="header" class="fl">
+        <div>
+          <div id="image">
+            <img
+              src="./assets/male.svg"
+              alt="Profile"
+              width="20px"
+              height="24px"
+            />
+          </div>
+        </div>
+        <div class="header-section-inside">
+          <div class="header-top">ETHAN WONG</div>
+          <div class="header-section-inside-span"><span>Male, 60 yrs (Senior Citizen)</span></div>
+        </div>
+
+     <div class="header-section-inside-side">
+      <button type="submit" onclick="closePopup()" class="btn1">x</button>
+
+        <div class="header-section-inside-resident">
+            Resident
+        </div>
+        <div class="header-section-inside-malaysia">
+            Malaysia
+        </div>
+
+     </div>
+       
+      </div>
+      <div id="small-cards-group">
+        <div id="single-small-card">
+            <div class="d-flex">
+                <h5 class="id-header-patient">Patient ID</h5>
+                <div>
+                    <img src="./assets/personcard.svg" alt="personcard" width="20px" height="20px">
+                </div>
+            </div>
+            <div class="single-small-card-again">5321344</div>
+        </div>
+
+        <div id="single-small-card">
+            <div class="d-flex">
+                <h5 class="id-header-patient">Visit ID</h5>
+                <div>
+                    <img src="./assets/personcard.svg" alt="personcard" width="20px" height="20px">
+                </div>
+            </div>
+            <div class="single-small-card-again">2735678</div>
+        </div>
+
+        <div id="single-small-card">
+            <div class="d-flex">
+                <h5 class="id-header-patient">Ward</h5>
+                <div>
+                    <img src="./assets/personcard.svg" alt="personcard" width="20px" height="20px">
+                </div>
+            </div>
+            <div class="single-small-card-again">Ward 2A</div>
+        </div>
+
+        
+      </div>
+        
+      <div id="large-cards-group">
+        <div id="large-small-card">
+            <div class="d-flex">
+                <h5 class="id-header-patient">Bed (F5-102)</h5>
+                <div>
+                    <img src="./assets/personcard.svg" alt="personcard" width="20px" height="20px">
+                </div>
+            </div>
+            <div class="single-small-card-again">Single Bed</div>
+        </div>
+
+        <div id="large-small-card">
+            <div class="d-flex">
+                <h5 class="id-header-patient">Payor</h5>
+                <div>
+                    <img src="./assets/personcard.svg" alt="personcard" width="20px" height="20px">
+                </div>
+            </div>
+            <div class="single-small-card-again">AIA BHD (INDIVIDUAL)</div>
+        </div>
+      </div>
+      <div id="journey-text">
+        <h3 id="admission">Admission Journey</h2>
+        <div id="journey-innertext">
+            <h5 id="journey-inntex">Elapsed Time</h4>
+            <h3>02:45</h3>
+        </div>
+      </div>
+      <div id="down-model">
+          <div id="green-tick" >
+            <img  src="./assets/tick.png" height="28px" width="48px"/>
+            <div class="main-outside">
+                <div class="main-admin"> <div class="adminsiion-text">Admission Request </div><div class="admin-span"><span >Dec 06 2021 08:36 AM</span></div></div>
+                
+                <div class="ratha-div">
+                    <div><img src="./assets/Group.svg" width="15px" height="15px"></div>
+                    <div><p class="text-ratha">Ratha AP</p></div> 
+                </div>
+            </div>
+          </div>
+        <div id="time">
+            <h3 class="timetext">00.24</h3>
+            <div class="timeline"></div>
+        </div>
+      </div>
+      <div id="down-model">
+        <div id="green-tick" >
+          <img  src="./assets/tick.png" height="28px" width="48px"/>
+          <div class="main-outside">
+              <div class="main-admin"> <div class="adminsiion-text">Admission Request </div><div class="admin-span"><span >Dec 06 2021 08:36 AM</span></div></div>
+              
+              <div class="ratha-div">
+                  <div><img src="./assets/Group.svg" width="15px" height="15px"></div>
+                  <div><p class="text-ratha">Ratha AP</p></div> 
+              </div>
+          </div>
+        </div>
+      <div id="time">
+          <h3 class="timetext">00.24</h3>
+          <div class="timeline"></div>
+      </div>
+    </div>
+    <div id="down-model">
+        <div id="green-tick" >
+          <img  src="./assets/tick.png" height="28px" width="48px"/>
+          <div class="main-outside">
+              <div class="main-admin"> <div class="adminsiion-text">Admission Request </div><div class="admin-span"><span >Dec 06 2021 08:36 AM</span></div></div>
+              
+              <div class="ratha-div">
+                  <div><img src="./assets/Group.svg" width="15px" height="15px"></div>
+                  <div><p class="text-ratha">Ratha AP</p></div> 
+              </div>
+          </div>
+        </div>
+      <div id="time">
+          <h3 class="timetext">00.24</h3>
+          <div class="timeline"></div>
+      </div>
+    </div>
+    <div id="down-model">
+        <div id="green-tick" >
+          <img  src="./assets/tick.png" height="28px" width="48px"/>
+          <div class="main-outside">
+              <div class="main-admin"> <div class="adminsiion-text">Admission Request </div><div class="admin-span"><span >Dec 06 2021 08:36 AM</span></div></div>
+              
+              <div class="ratha-div">
+                  <div><img src="./assets/Group.svg" width="15px" height="15px"></div>
+                  <div><p class="text-ratha">Ratha AP</p></div> 
+              </div>
+          </div>
+        </div>
+      <div id="time">
+          <div class="timelines"></div>
+      </div>
+    </div>
+    <div id="down-model">
+        <div id="green-tick" >
+          <img  src="./assets/teenyicons_tick-solid.svg" height="28px" width="21px" class="side"/>
+          <div class="main-outside">
+              <div class="main-admin"> <div class="adminsiion-text" style="margin-top: 11px">Admitted</div><div class="admin-span"></div></div>
+             
+          </div>
+        </div>
+      <div id="time">
+          <div class="timelines"></div>
+      </div>
+    </div>
+    <div id="down-model-last">
+        <div id="green-tick" >
+          <img  src="./assets/Vector (1).svg" height="28px" width="21px" class="side"/>
+          <div class="main-outside">
+              <div class="main-admin"> <div class="adminsiion-text" style="margin-top: 11px">Accepted</div>
+          </div>
+        </div>
+      
+    </div>
+    </div>
+</div>
+</div>
+<script>
+let popup=document.getElementById("popup");
+function openPopup(){
+  popup.classList.add("open-popup");
+}
+function closePopup(){
+  popup.classList.remove("open-popup");
+}
+</script>
+  </body>
+</html>
